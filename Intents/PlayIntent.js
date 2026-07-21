@@ -1,4 +1,4 @@
-const { STREAM_URL, TOKEN } = require("../config");
+const { STREAM_URL, TOKEN } = require("../Skill-da-Alexa/config");
 
 module.exports = {
 
@@ -16,12 +16,12 @@ module.exports = {
 
             .speak("Reproduzindo Rádio Fantasma.")
 
-            .addAudioPlayerPlayDirective(
+            /*.addAudioPlayerPlayDirective(
                 "REPLACE_ALL",
                 STREAM_URL,
                 TOKEN,
                 0
-            )
+            )*/
 
             .getResponse();
 

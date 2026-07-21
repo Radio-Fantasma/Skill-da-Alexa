@@ -5,7 +5,7 @@ const skill = require("./skill");
 
 const app = express();
 
-const adapter = new ExpressAdapter(skill, false, false);
+const adapter = new ExpressAdapter(skill);
 
 app.post("/", adapter.getRequestHandlers());
 
