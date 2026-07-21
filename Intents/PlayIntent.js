@@ -1,5 +1,3 @@
-const { STREAM_URL, TOKEN } = require("../Skill-da-Alexa/config");
-
 module.exports = {
 
     canHandle(handlerInput) {
