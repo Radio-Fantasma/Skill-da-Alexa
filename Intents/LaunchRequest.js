@@ -1,5 +1,7 @@
-const { STREAM_URL, TOKEN } = require("../Skill-da-Alexa/config");
-
+module.exports = {
+    STREAM_URL: "https://antom.tailf176e0.ts.net/listen/radio_fantasma/radio.mp3?date=1784650634805",
+    TOKEN: "radioFantasma"
+};
 module.exports = {
 
     canHandle(handlerInput) {
