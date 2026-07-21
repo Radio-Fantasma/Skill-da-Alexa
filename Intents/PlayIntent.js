@@ -14,12 +14,12 @@ module.exports = {
 
             .speak("Reproduzindo Rádio Fantasma.")
 
-            /*.addAudioPlayerPlayDirective(
+            .addAudioPlayerPlayDirective(
                 "REPLACE_ALL",
-                STREAM_URL,
-                TOKEN,
+                "https://antom.tailf176e0.ts.net/listen/radio_fantasma/radio.mp3?date=1784650634805",
+                "radiofantasma",
                 0
-            )*/
+            )
 
             .getResponse();
 

@@ -8,7 +8,7 @@ module.exports = {
 
         return handlerInput.responseBuilder
 
-            .speak("Ligando a Rádio Fantasma.")
+            .speak("Conectando a Rádio")
 
             .addAudioPlayerPlayDirective(
                 "REPLACE_ALL",
