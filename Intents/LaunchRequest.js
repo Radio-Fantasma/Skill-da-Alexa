@@ -1,8 +1,4 @@
 module.exports = {
-    STREAM_URL: "https://antom.tailf176e0.ts.net/listen/radio_fantasma/radio.mp3?date=1784650634805",
-    TOKEN: "radioFantasma"
-};
-module.exports = {
 
     canHandle(handlerInput) {
         return handlerInput.requestEnvelope.request.type === "LaunchRequest";
@@ -16,8 +12,8 @@ module.exports = {
 
             .addAudioPlayerPlayDirective(
                 "REPLACE_ALL",
-                STREAM_URL,
-                TOKEN,
+                "https://antom.tailf176e0.ts.net/listen/radio_fantasma/radio.mp3?date=1784650634805",
+                "radiofantasma",
                 0
             )
 
